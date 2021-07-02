@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 1.5em;
+}
+html{
+    font-size: 62.5%;
+}
+.index_main{
+    background-color: darkorchid;
+    text-align: center;
+    padding: 2em;
+    height:140vh;
+    padding-bottom: 5%;
+    position: relative;
+}
+.index_buttons{
+    margin: 2em 0 2em 0;
+}
+.button{
+    background-color: indigo;
+    font-size: .4em;
+    padding: 2%;
+    border: none;
+    border-radius: 10%;
+    margin-right: 1%;
+    color: wheat;
+}
+.form_margin{
+    margin-top: 5%;
+}
+.label{
+    display: block;
+    font-size: .5em;
+    font-weight: 300;
+}
+.input{
+    width: 30%;
+    outline: none;
+    border: none;
+    height: 8vh;
+    padding: 0 2% 0 2%;
+    font-size: .5em;
+    border-radius: 8em;
+    display: block;
+    margin: 0 35% 2% 35%;
+}
+.chkbx{
+    display: inline-block;
+    margin-right: .2em;
+}
+.chkbx_label{
+    font-size: .5em;
+}
+.fly_btn{
+    outline: none;
+    display: block;
+    text-align: center;
+    background-color: indigo;
+    font-size: .4em;
+    padding: 2%;
+    border: none;
+    border-radius: 5em;
+    margin: 2% 35% 2% 35%;
+    color: wheat;
+    width: 30%;
+}
+.err_label{
+    color: yellow;
+    font-size: 1em;
+    /* position: absolute;
+    top: 5%; */
+}
